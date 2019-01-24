@@ -10,6 +10,7 @@ double Pierwiastkowanie::pierwiastkuj()
 {
     cout << "Podaj liczbe do pierwiastkowania: ";
     cin >> a;
-    cout << "Pierwiastek z " << a << " wynosi: " << sqrt(a) << endl;
+    if(a<0) cout << "Pierwiastkowac mozna tylko liczby ujemne" << endl;
+    else cout << "Pierwiastek z " << a << " wynosi: " << sqrt(a) << endl;
     return 0;
 }
