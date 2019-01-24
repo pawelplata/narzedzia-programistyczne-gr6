@@ -4,8 +4,6 @@
 
 using namespace std;
 
-double a;
-
 double Pierwiastkowanie::pierwiastkuj()
 {
     cout << "Podaj liczbe do pierwiastkowania: ";

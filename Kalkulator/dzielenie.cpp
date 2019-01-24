@@ -3,12 +3,10 @@
 
 using namespace std;
 
-double a, b;
-
-double Pierwiastkowanie::pierwiastkuj()
+double Dzielenie::dziel()
 {
     cout << "Podaj dwie liczby: ";
     cin >> a >> b;
-    else cout << a << "/" << b << " wynosi: " << a/b << endl;
+    cout << a << "/" << b << " wynosi: " << a/b << endl;
     return 0;
 }

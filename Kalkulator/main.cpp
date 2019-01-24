@@ -8,6 +8,7 @@ int main()
 {
     int n=0;
     cout << "Wybierz opcje" << endl;
+    cout << "4: dzielenie" << endl;
     cout << "5: pierwiastkowanie" << endl;
     cout << "q: zakoncz program" << endl;
     for (;cin >> n;)
@@ -19,8 +20,8 @@ int main()
             a1.dziel();
             break;
         case 5:
-            Pierwiastkowanie a1;
-            a1.pierwiastkuj();
+            Pierwiastkowanie a2;
+            a2.pierwiastkuj();
             break;
         default:
             cout << "Nieznane polecenie." << endl;
