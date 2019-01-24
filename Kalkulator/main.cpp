@@ -8,7 +8,7 @@ int main()
     int n=0;
     cout << "Wybierz opcje" << endl;
     cout << "5: pierwiastkowanie" << endl;
-    cout << "g: zakoncz program" << endl;
+    cout << "q: zakoncz program" << endl;
     for (;cin >> n;)
     {
         switch (n)
