@@ -1,5 +1,6 @@
 #include <iostream>
 #include "pierwiastkowanie.h"
+#include "dzielenie.h"
 
 using namespace std;
 
@@ -13,6 +14,10 @@ int main()
     {
         switch (n)
         {
+        case 4:
+            Dzielenie a1;
+            a1.dziel();
+            break;
         case 5:
             Pierwiastkowanie a1;
             a1.pierwiastkuj();
