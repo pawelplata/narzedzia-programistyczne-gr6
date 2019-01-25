@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="dzielenie.cpp" />
+		<Unit filename="dzielenie.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="pierwiastkowanie.cpp" />
+		<Unit filename="pierwiastkowanie.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
