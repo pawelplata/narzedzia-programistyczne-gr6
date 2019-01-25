@@ -5,6 +5,7 @@ using namespace std;
 
 double Mnozenie::mnozenie()
 {
+double a,b;
     cout << "Podaj liczbe a: ";
     cin >> a ;
 	cout <<"\nPodaj liczbe b: ";
