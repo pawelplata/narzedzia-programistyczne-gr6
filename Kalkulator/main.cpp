@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <mnozenie.h>
 using namespace std;
 
 int main()
@@ -14,6 +14,11 @@ int main()
         {
         case 1:
             break;
+	case 3:
+	Mnozenie c;
+	c.mnozenie();
+	break;
+
         default:
             cout << "Nieznane polecenie." << endl;
         }
