@@ -1,5 +1,5 @@
 #include <iostream>
-#include <mnozenie.h>
+#include "mnozenie.h"
 using namespace std;
 
 int main()
