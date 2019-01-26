@@ -6,7 +6,7 @@ using namespace std;
 
 double potegowanie::poteguj()
 {
-    cout << "Podaj liczbe, ktora bedziesz potegowac do 2: "<< endl;
+    cout << "Podaj liczbe, ktora bedziesz potegowac do 2: cos tam "<< endl;
     cin >> a;
 	b=a*a;
     cout << "Potega liczby " << a << " do 2 wynosi: " << b;
