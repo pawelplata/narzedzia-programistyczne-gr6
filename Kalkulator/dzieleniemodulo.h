@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class DzielenieModulo
+class DzielenieModulo 
 {
 public:
 	double a;
