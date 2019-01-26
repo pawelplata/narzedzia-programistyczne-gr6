@@ -1,2 +1,1 @@
-# test
-# test1(Michał)
+# Projekt dotyczący prostego kalkulatora matematycznego do szybkich obliczeń.
