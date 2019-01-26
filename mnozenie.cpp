@@ -9,7 +9,7 @@ double Mnozenie::mnozenie()
 {
     cout << "Podaj  a: ";
     cin >> a 
-	cout <<"\nPodaj liczbe b: ";
+	cout <<"\nPodaj b: ";
 	cin >>b;
     cout  << "\nWynik: " << a*b << endl;
     return 0;
