@@ -6,5 +6,6 @@ class DzielenieModulo
 {
 public:
 	double a;
+	double b;
 	double dzielmodulo();
 };
