@@ -6,6 +6,7 @@ using namespace std;
 
 double DzielenieModulo::dzielmodulo()
 {
+	setlocale(LC_ALL,"PL-pl"); //polskie znaki
 	cout << "Podaj 1-szą liczbę";
 	cin >> a;
 	do{
