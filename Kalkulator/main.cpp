@@ -1,4 +1,6 @@
 #include <iostream>
+#include "dodawanie.h"
+#include "Odejmowanie.h"
 #include "pierwiastkowanie.h"
 #include "dzielenie.h"
 
@@ -8,6 +10,8 @@ int main()
 {
     int n=0;
     cout << "Wybierz opcje" << endl;
+    cout << "1: dodawanie"<<endl;
+    cout << "2: odejmowanie"<<endl;
     cout << "4: dzielenie" << endl;
     cout << "5: pierwiastkowanie" << endl;
     cout << "q: zakoncz program" << endl;
@@ -15,7 +19,15 @@ int main()
     {
         switch (n)
         {
-        case 4:
+         case 1:
+	    Dodawanie b1; 
+	   b1.dodaj();
+	    break;
+         case 2:
+            Odejmowanie b5;
+	    b5.odejmij(); 
+	    break;
+	 case 4:
             Dzielenie a1;
             a1.dziel();
             break;
