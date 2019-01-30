@@ -7,7 +7,7 @@ using namespace std;
 double Logarytm::log()
 {
     cout << "Podaj dwie liczby: ";
-    cin >> a >> b;
+    cin >> a ;
     cout << log(a) << endl;
     return 0;
 }
