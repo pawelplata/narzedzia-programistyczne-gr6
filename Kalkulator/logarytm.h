@@ -1,8 +1,8 @@
 #include <iostream>
 
-class Dzielenie
+class Logarytm
 {
 public:
     double a, b;
-    double dziel();
+    double log();
 };
