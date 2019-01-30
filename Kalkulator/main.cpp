@@ -3,6 +3,7 @@
 #include "Odejmowanie.h"
 #include "pierwiastkowanie.h"
 #include "dzielenie.h"
+#include "logarytm.h"
 
 using namespace std;
 
@@ -15,6 +16,7 @@ int main()
     cout << "3: mnozenie"<<endl;
     cout << "4: dzielenie" << endl;
     cout << "5: pierwiastkowanie" << endl;
+    cout << "6: logarytmowanie" << endl;
     cout << "q: zakoncz program" << endl;
     for (;cin >> n;)
     {
@@ -27,6 +29,10 @@ int main()
         case 5:
             Pierwiastkowanie a2;
             a2.pierwiastkuj();
+            break;
+        case 6:
+            Logarytm z;
+            z.log();
             break;
 
         default:

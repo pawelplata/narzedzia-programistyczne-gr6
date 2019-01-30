@@ -1,5 +1,6 @@
 #include <iostream>
 #include "logarytm.h"
+#include <math.h>
 
 using namespace std;
 
